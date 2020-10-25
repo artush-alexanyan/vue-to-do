@@ -118,7 +118,8 @@ export default {
                         currentCountries.push(countrie)
                     }
                     this.tabs = currentCountries
-            })            
+            })           
+            this.changePageData()
         },
         changePageData (index = 0) {
             this.currentpage = index
